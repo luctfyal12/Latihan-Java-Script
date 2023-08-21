@@ -114,7 +114,73 @@ console.log(user ?? 'anonymous');
 let users = 'Andi';
 console.log(users ?? 'anonymous');
 
+// Object
+// const object_name = {
+//     key1: value1, 
+//     key2: value2,
+// }; // Value diisi oleh number, string, dan lain-lain
 
+const person = {
+    name: 'Luctfy',
+    age: 23,
+};
+console.log(person)
 
+console.log(person.name);
+console.log(person.age);
+console.log(person['name']);
+console.log(person['age']);
 
+person.isMarried = false; // Menambahkan Key pada Object 
+delete person.age;
+console.log(person)
+
+// Property Shorthand
+function makeUser(name, age) {
+    return {
+        name: name,
+        age: age,
+    }
+}
+let lucet = makeUser ('Luctfy', 23);
+console.log(lucet.name);
+console.log(lucet.age)
+console.log(lucet['age'])
+console.log(lucet['name'])
+
+// Property Existance, untuk membuktikan ada tidaknya properti didalam variabel tersebut
+let eco = {
+    name:'Kala',
+    age: 20,
+};
+console.log('place' in eco);
+console.log('name' in eco);
+
+for (let key in eco) { 
+    console.log (key); //
+    console.log(eco[key])
+}
  
+// Array
+
+const numbers = [1, 2, 3, 4, 5];
+let buah = [
+    'apple', 'mango', 'orange'
+];
+console.log(buah[0], buah[1]);
+console.log(buah[1]);
+console.log(buah[2]);
+
+let buahS = ['mangga', 'apel', 'semangka'];
+buahS[3] = 'durian';
+console.log(buahS);
+buahS.push('nangka');
+console.log(buahS)
+console.log(buahS);
+let arrayRemoved = buahS.pop();
+console.log (arrayRemoved)
+console.log(buahS)
+console.log(buahS.length)
+buahS.sort();
+console.log(buahS)
+// cari array operation di W3schools
