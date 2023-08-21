@@ -67,7 +67,53 @@ console.log('' == false)
 console.log(0 === false)
 console.log('' === true)
 
-// logical operator
+// logical operator //
+
+// Lambang OR --> || memanipulasi nilai boolean
+console.log(true || true);
+console.log(true || false);
+console.log(false || true);
+console.log(false || false);
+
+let x = 12;
+let y = 20;
+
+if (x <= 11 || x >= 13) {
+    console.log('Nilai Salah')
+} else {
+    console.log('Nilai Benar')
+}
+
+// Lambang And --> &&
+console.log(true && true);
+console.log(true && false);
+console.log(false && true);
+console.log(false && false);
+
+let city = 'karawang';
+let age = 23;
+
+if (city == 'karawang' && age == 23) {
+    console.log('The Data is right');
+} else {
+
+}
+
+if (city == 'karawang' && age == 24) {
+    console.log('The Data is right');
+} 
+// Lambang Not --> !
+// membalikan suatu nilai
+let q = 10 > 12;
+console.log(q); //jawaban false
+console.log(!q) // jawaban kebalikan dari 'tanpa !'
+
+// Pengecekan Null --> ?? 
+let user;
+console.log(user ?? 'anonymous');
+let users = 'Andi';
+console.log(users ?? 'anonymous');
+
 
 
 
