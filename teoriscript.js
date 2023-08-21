@@ -184,3 +184,5 @@ console.log(buahS.length)
 buahS.sort();
 console.log(buahS)
 // cari array operation di W3schools
+
+// Conditional Statement
