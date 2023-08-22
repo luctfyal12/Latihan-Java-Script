@@ -175,7 +175,7 @@ let buahS = ['mangga', 'apel', 'semangka'];
 buahS[3] = 'durian';
 console.log(buahS);
 buahS.push('nangka');
-console.log(buahS)
+console.log(buahS);
 console.log(buahS);
 let arrayRemoved = buahS.pop();
 console.log (arrayRemoved)
@@ -185,4 +185,49 @@ buahS.sort();
 console.log(buahS)
 // cari array operation di W3schools
 
-// Conditional Statement
+// Conditional Operator Statement
+// Contoh penggunaan if ... Else
+// let identityCardAllowed;
+
+// if (age >= 17) {
+//     identityCardAllowed =  true;
+// } else {
+//     identityCardAllowed = false;
+// }
+// console.log(identityCardAllowed)
+
+// Conditional Operator '?'
+let identityCardAllowed = age >= 17 ? true : false;
+console.log(identityCardAllowed); // Syarat bisa seperti ini output harus boolean
+
+// If Statement 
+let haus;
+
+if (x <= 20) {
+    haus = true;
+    console.log('thats right');
+}
+console.log(haus);
+
+// if else statement
+let year = 2023;
+
+if (year == 2022) {
+    console.log('Benar');
+} else {
+    console.log('Salah');
+}
+
+// if else if statement 
+let umur = 18;
+
+if (umur >= 19) {
+    console.log('Selamat');
+} else if (umur <= 18) {
+    console.log ('Maaf');
+}
+
+//konversi boolean
+//Jika angka 0, string kosong null NuN dll maka akan dibaca falsy / false
+
+// Switch Statement
